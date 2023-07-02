@@ -1,4 +1,12 @@
 <paste log output from Kubernetes-mediated prediction, here>
+(.devops) root@ip-172-31-85-94:/dev/DevOps_Microservices/project-ml-microservice-kubernetes# ./run_kubernetes.sh
+pod/my-project4 created
+NAME          READY   STATUS              RESTARTS   AGE
+my-project4   1/1     Running             0          79s
+Forwarding from 127.0.0.1:8080 -> 80
+Forwarding from [::1]:8080 -> 80
+Handling connection for 8080
+
 (.devops) root@ip-172-31-85-94:/dev/DevOps_Microservices/project-ml-microservice-kubernetes# ./make_prediction.sh
 Port: 8080
 {
